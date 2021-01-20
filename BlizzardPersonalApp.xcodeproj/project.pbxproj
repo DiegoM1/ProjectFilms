@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		790D2C1E25B0CB040078FE47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790D2C1D25B0CB040078FE47 /* AppDelegate.swift */; };
 		790D2C2025B0CB040078FE47 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790D2C1F25B0CB040078FE47 /* SceneDelegate.swift */; };
-		790D2C2225B0CB040078FE47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790D2C2125B0CB040078FE47 /* ViewController.swift */; };
 		790D2C2525B0CB040078FE47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 790D2C2325B0CB040078FE47 /* Main.storyboard */; };
 		790D2C2725B0CB050078FE47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 790D2C2625B0CB050078FE47 /* Assets.xcassets */; };
 		790D2C2A25B0CB050078FE47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 790D2C2825B0CB050078FE47 /* LaunchScreen.storyboard */; };
 		790D2C3525B0CB050078FE47 /* BlizzardPersonalAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790D2C3425B0CB050078FE47 /* BlizzardPersonalAppTests.swift */; };
 		790D2C4025B0CB050078FE47 /* BlizzardPersonalAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790D2C3F25B0CB050078FE47 /* BlizzardPersonalAppUITests.swift */; };
+		790D2C5425B737600078FE47 /* FilmsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790D2C5325B737600078FE47 /* FilmsCollectionViewController.swift */; };
+		790D2C5B25B739720078FE47 /* FilmsDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790D2C5A25B739720078FE47 /* FilmsDataProvider.swift */; };
+		790D2C6125B73C840078FE47 /* FilmResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790D2C6025B73C840078FE47 /* FilmResponse.swift */; };
+		790D2C6A25B750E20078FE47 /* FilmsCollectionModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790D2C6925B750E20078FE47 /* FilmsCollectionModelView.swift */; };
+		790D2C6F25B771DA0078FE47 /* FilmPosterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790D2C6E25B771DA0078FE47 /* FilmPosterCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +42,6 @@
 		790D2C1A25B0CB040078FE47 /* BlizzardPersonalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlizzardPersonalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		790D2C1D25B0CB040078FE47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		790D2C1F25B0CB040078FE47 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		790D2C2125B0CB040078FE47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		790D2C2425B0CB040078FE47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		790D2C2625B0CB050078FE47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		790D2C2925B0CB050078FE47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,11 @@
 		790D2C3B25B0CB050078FE47 /* BlizzardPersonalAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlizzardPersonalAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		790D2C3F25B0CB050078FE47 /* BlizzardPersonalAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlizzardPersonalAppUITests.swift; sourceTree = "<group>"; };
 		790D2C4125B0CB050078FE47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		790D2C5325B737600078FE47 /* FilmsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsCollectionViewController.swift; sourceTree = "<group>"; };
+		790D2C5A25B739720078FE47 /* FilmsDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsDataProvider.swift; sourceTree = "<group>"; };
+		790D2C6025B73C840078FE47 /* FilmResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmResponse.swift; sourceTree = "<group>"; };
+		790D2C6925B750E20078FE47 /* FilmsCollectionModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsCollectionModelView.swift; sourceTree = "<group>"; };
+		790D2C6E25B771DA0078FE47 /* FilmPosterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmPosterCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,9 @@
 		790D2C1125B0CB040078FE47 = {
 			isa = PBXGroup;
 			children = (
+				790D2C5925B737C20078FE47 /* ViewControllers */,
+				790D2C5F25B73C240078FE47 /* Entities */,
+				790D2C5825B737A90078FE47 /* DataProvider */,
 				790D2C1C25B0CB040078FE47 /* BlizzardPersonalApp */,
 				790D2C3325B0CB050078FE47 /* BlizzardPersonalAppTests */,
 				790D2C3E25B0CB050078FE47 /* BlizzardPersonalAppUITests */,
@@ -101,7 +112,6 @@
 			children = (
 				790D2C1D25B0CB040078FE47 /* AppDelegate.swift */,
 				790D2C1F25B0CB040078FE47 /* SceneDelegate.swift */,
-				790D2C2125B0CB040078FE47 /* ViewController.swift */,
 				790D2C2325B0CB040078FE47 /* Main.storyboard */,
 				790D2C2625B0CB050078FE47 /* Assets.xcassets */,
 				790D2C2825B0CB050078FE47 /* LaunchScreen.storyboard */,
@@ -126,6 +136,32 @@
 				790D2C4125B0CB050078FE47 /* Info.plist */,
 			);
 			path = BlizzardPersonalAppUITests;
+			sourceTree = "<group>";
+		};
+		790D2C5825B737A90078FE47 /* DataProvider */ = {
+			isa = PBXGroup;
+			children = (
+				790D2C5A25B739720078FE47 /* FilmsDataProvider.swift */,
+			);
+			path = DataProvider;
+			sourceTree = "<group>";
+		};
+		790D2C5925B737C20078FE47 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				790D2C5325B737600078FE47 /* FilmsCollectionViewController.swift */,
+				790D2C6E25B771DA0078FE47 /* FilmPosterCollectionViewCell.swift */,
+				790D2C6925B750E20078FE47 /* FilmsCollectionModelView.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		790D2C5F25B73C240078FE47 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				790D2C6025B73C840078FE47 /* FilmResponse.swift */,
+			);
+			path = Entities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +294,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				790D2C2225B0CB040078FE47 /* ViewController.swift in Sources */,
+				790D2C5425B737600078FE47 /* FilmsCollectionViewController.swift in Sources */,
 				790D2C1E25B0CB040078FE47 /* AppDelegate.swift in Sources */,
+				790D2C6F25B771DA0078FE47 /* FilmPosterCollectionViewCell.swift in Sources */,
+				790D2C6125B73C840078FE47 /* FilmResponse.swift in Sources */,
+				790D2C5B25B739720078FE47 /* FilmsDataProvider.swift in Sources */,
+				790D2C6A25B750E20078FE47 /* FilmsCollectionModelView.swift in Sources */,
 				790D2C2025B0CB040078FE47 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
