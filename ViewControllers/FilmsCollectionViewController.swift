@@ -19,14 +19,11 @@ class FilmsCollectionViewController: UICollectionViewController {
    
     override func viewDidLoad() {
         super.viewDidLoad()
-        filmDataProvider.getFilmsData (page: 1){ (response) in
-            self.filmCollectionModel.filmDataCollection = response.results
-            
+        filmCollectionModel.fetchData {
             DispatchQueue.main.async {
                 self.collectionView.reloadData()
             }
         }
-
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
         self.collectionView.reloadData()
@@ -62,20 +59,13 @@ class FilmsCollectionViewController: UICollectionViewController {
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "filmposter", for: indexPath) as! FilmPosterCollectionViewCell
         
-            
+        if filmCollectionModel.filmDataCollection.count > 0 {
             let posterPath = filmCollectionModel.filmDataCollection[indexPath.row].poster_path
-            if (cache.object(forKey: posterPath as NSString) != nil) {
-                cell.imageView.image = cache.object(forKey: posterPath as NSString)
-            }
-        filmDataProvider.getFilmsImages(posterPath: posterPath, using: { (image) in
-            self.imgCollection.append(image)
-            self.cache.setObject(image, forKey: posterPath as NSString)
-            DispatchQueue.main.async {
-                cell.imageView.image = image
-            }
-            })
+            cell.imageView.setCustomImage(path: posterPath)
+            
+           
         // Configure the cell
-    
+        }
         return cell
     }
     

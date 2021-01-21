@@ -23,10 +23,9 @@ class FilmsCollectionViewModel {
 
 //    var imgDataCollection: [UIImage] = []
     
-    func fetchData () {
+    func fetchData (using: () -> ()) {
         filmDataProvider.getFilmsData(page: 1){ (response) in
             self.filmDataCollection = response.results
-           
         }
     }
     

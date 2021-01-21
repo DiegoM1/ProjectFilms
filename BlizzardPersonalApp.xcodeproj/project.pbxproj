@@ -19,6 +19,7 @@
 		790D2C6125B73C840078FE47 /* FilmResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790D2C6025B73C840078FE47 /* FilmResponse.swift */; };
 		790D2C6A25B750E20078FE47 /* FilmsCollectionModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790D2C6925B750E20078FE47 /* FilmsCollectionModelView.swift */; };
 		790D2C6F25B771DA0078FE47 /* FilmPosterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790D2C6E25B771DA0078FE47 /* FilmPosterCollectionViewCell.swift */; };
+		79AAA93925B8D406001EEAE8 /* FilmsImgProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AAA93825B8D406001EEAE8 /* FilmsImgProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		790D2C6025B73C840078FE47 /* FilmResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmResponse.swift; sourceTree = "<group>"; };
 		790D2C6925B750E20078FE47 /* FilmsCollectionModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsCollectionModelView.swift; sourceTree = "<group>"; };
 		790D2C6E25B771DA0078FE47 /* FilmPosterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmPosterCollectionViewCell.swift; sourceTree = "<group>"; };
+		79AAA93825B8D406001EEAE8 /* FilmsImgProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsImgProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 				790D2C5325B737600078FE47 /* FilmsCollectionViewController.swift */,
 				790D2C6E25B771DA0078FE47 /* FilmPosterCollectionViewCell.swift */,
 				790D2C6925B750E20078FE47 /* FilmsCollectionModelView.swift */,
+				79AAA93825B8D406001EEAE8 /* FilmsImgProvider.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 				790D2C1E25B0CB040078FE47 /* AppDelegate.swift in Sources */,
 				790D2C6F25B771DA0078FE47 /* FilmPosterCollectionViewCell.swift in Sources */,
 				790D2C6125B73C840078FE47 /* FilmResponse.swift in Sources */,
+				79AAA93925B8D406001EEAE8 /* FilmsImgProvider.swift in Sources */,
 				790D2C5B25B739720078FE47 /* FilmsDataProvider.swift in Sources */,
 				790D2C6A25B750E20078FE47 /* FilmsCollectionModelView.swift in Sources */,
 				790D2C2025B0CB040078FE47 /* SceneDelegate.swift in Sources */,
